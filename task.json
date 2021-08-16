@@ -1,0 +1,9 @@
+{
+    "name": "Mark-CAI",
+    "description": "失效Tasks",
+    "task": [
+        "0 9 * * * https://raw.githubusercontent.com/kingswon/-X/main/jd_price_detect.js, tag=京东价格提醒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+        "0 21 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js, tag=Telegram频道图片推送, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/tgpic.png, enabled=true",
+        "0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/zongheng.js, tag=纵横小说, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/zongheng.png, enabled=true",
+    ]
+}
