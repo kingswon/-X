@@ -44,7 +44,7 @@ async function douban_addons() {
 
     let mweb = [`<a href="http://10.10.10.10:1329/movie/search?keyword=${title[1]}"><img src="https://files.catbox.moe/c8vszl.png" height="25" width="34.78" style="vertical-align: text-top;" /></a>`]
     
-    mweb.push(`<a href="http://10.10.10.10:1329/movie/search?keyword=${title[1]}&submit="><img src="https://github.com/kingswon/QX/blob/main/movie_robot.png" height="25" width="25" style="vertical-align: text-top;" /></a>`)
+    mweb.push(`<a href="http://10.10.10.10:1329/movie/search?keyword=${title[1]}&submit="><img src="https://github.com/kingswon/-X/blob/main/movie_robot.png" height="25" width="25" style="vertical-align: text-top;" /></a>`)
     
     let douban_options = {
         url: `https://frodo.douban.com/api/v2/movie/${movieId[1]}?apiKey=0ac44ae016490db2204ce0a042db2916`,
